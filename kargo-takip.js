@@ -1,12 +1,11 @@
-function getReq(url)
-{
-    fetch(url).then(function(response) {
-  return response.json();
-}).then(function(data) {
-  console.log(data);
-}).catch(function() {
-  console.log("Booo");
-});
+function getReq(url) {
+    fetch(url).then(function (response) {
+        return response.json();
+    }).then(function (data) {
+        console.log(data);
+    }).catch(function () {
+        console.log("Booo");
+    });
 }
 
 let TRACKING_CODE = "158160312958";
